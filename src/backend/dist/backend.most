@@ -1,0 +1,47 @@
+// Version: 1.0.0
+type CoverageZone__556297623 =
+  {
+    description : Text;
+    id : Nat;
+    lat : Float;
+    lng : Float;
+    name : Text;
+    region : Text
+  };
+type Industry__1005996168 =
+  {
+    benefits : [Text];
+    description : Text;
+    icon : Text;
+    id : Nat;
+    name : Text;
+    slug : Text;
+    useCases : [Text]
+  };
+type Project__762223144 =
+  {
+    clientIndustry : Text;
+    description : Text;
+    hasBeforeAfter : Bool;
+    id : Nat;
+    industry : Text;
+    results : Text;
+    serviceType : Text;
+    title : Text
+  };
+type Service__311281967 =
+  {
+    benefits : [Text];
+    description : Text;
+    features : [Text];
+    icon : Text;
+    id : Nat;
+    slug : Text;
+    title : Text
+  };
+actor {
+  stable sampleCoverageZones : [CoverageZone__556297623];
+  stable sampleIndustries : [Industry__1005996168];
+  stable sampleProjects : [Project__762223144];
+  stable sampleServices : [Service__311281967]
+};

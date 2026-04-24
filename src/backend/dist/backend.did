@@ -1,0 +1,46 @@
+type Service = 
+ record {
+   benefits: vec text;
+   description: text;
+   features: vec text;
+   icon: text;
+   id: nat;
+   slug: text;
+   title: text;
+ };
+type Project = 
+ record {
+   clientIndustry: text;
+   description: text;
+   hasBeforeAfter: bool;
+   id: nat;
+   industry: text;
+   results: text;
+   serviceType: text;
+   title: text;
+ };
+type Industry = 
+ record {
+   benefits: vec text;
+   description: text;
+   icon: text;
+   id: nat;
+   name: text;
+   slug: text;
+   useCases: vec text;
+ };
+type CoverageZone = 
+ record {
+   description: text;
+   id: nat;
+   lat: float64;
+   lng: float64;
+   name: text;
+   region: text;
+ };
+service : {
+  getAllIndustries: () -> (vec Industry) query;
+  getAllProjects: () -> (vec Project) query;
+  getAllServices: () -> (vec Service) query;
+  getCoverageZones: () -> (vec CoverageZone) query;
+}

@@ -1,0 +1,27 @@
+{
+  "overview": "A modern, futuristic, premium multi-page website for a Drone Services company. Features a video hero, interactive portfolio with dual filters and detail pages, deep service sections, industry showcase, clickable coverage map, and inquiry form — all styled with a sleek dark theme and Framer Motion animations.",
+  "features": [
+    "Video hero section with drone footage background",
+    "6-page site: Home, Industries, Portfolio, Services, About, Contact",
+    "Portfolio with dual filters (industry + service type) and detail pages",
+    "Before/after project visuals with outcomes",
+    "Interactive map with clickable coverage zones",
+    "Deep service sections with features and benefits",
+    "Industry showcase with use-cases per industry",
+    "Framer Motion animations and transitions",
+    "Inquiry form with validation and success confirmation",
+    "Sticky navigation, smooth scrolling, fully responsive"
+  ],
+  "category": "business-website",
+  "tags": [
+    "drone",
+    "services",
+    "portfolio",
+    "futuristic",
+    "dark-theme",
+    "framer-motion",
+    "multi-page",
+    "responsive"
+  ],
+  "last_updated": "2026-04-24T04:39:35.235Z"
+}
