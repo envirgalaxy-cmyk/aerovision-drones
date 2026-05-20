@@ -18,7 +18,6 @@ const footerLinks = {
 
 export function Footer() {
   const year = new Date().getFullYear();
-  const utmLink = `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`;
 
   return (
     <footer className="bg-card border-t border-border mt-auto">
@@ -83,15 +82,24 @@ export function Footer() {
           <p className="text-muted-foreground text-xs">
             © {year} AeroVision Drones. All rights reserved.
           </p>
-          <p className="text-muted-foreground text-xs">
-            Built with love using{" "}
+          <p className="text-xs text-primary-foreground/40 font-medium">
+            Designed By{" "}
             <a
-              href={utmLink}
+              href="https://jayy-patel.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary hover:underline"
+              className="text-accent hover:underline transition-all"
             >
-              caffeine.ai
+              Jay Patel
+            </a>{" "}
+            👾{" "}
+            <a
+              href="https://envirgalaxy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:underline transition-all"
+            >
+              (EnvirGalaxy)
             </a>
           </p>
         </div>
